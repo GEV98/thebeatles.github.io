@@ -1,0 +1,136 @@
+ 
+body {
+    background: url(https://image.ibb.co/fMbLUx/icons8_the_beatles_500_white.png)   #000 no-repeat  center top  ;
+   background-size: 250px;
+     
+   }
+
+
+.linkblock1, .linkblock2, .linkblock3, .linkblock4{
+    height: 639px ;
+    width: 94px;
+    cursor:pointer;
+    position: absolute;
+    margin-top: 190px;
+    opacity: 0.8;
+    -webkit-transition-duration: 0.5s;
+    
+}
+
+.linkblock1{
+     
+    left:200px
+     
+}
+.linkblock1:hover,.linkblock2:hover:hover,.linkblock3:hover:hover:hover,.linkblock4:hover{
+   -webkit-transform:scale(1.1);
+opacity: 1;
+}
+
+.linkblock2{
+    
+   left: 450px;
+    }
+
+    .linkblock3{
+ 
+    right: 450px;
+
+}
+
+    .linkblock4{
+    
+ right:200px;
+        
+  
+}
+
+
+.menu{
+    float: left;
+    width:100%;
+   
+    position: relative;
+    z-index: 2;
+    
+   
+     
+}
+
+.menu ul{
+    margin:0;
+    padding:0;
+    float: left;
+    position: relative;
+    left:50%;
+
+}
+
+.menu ul li{ 
+float:left;
+position: relative;
+right:50%;
+}
+
+.bjij{
+    text-decoration: none;
+    
+    border-width:1px;
+    border-right: 1px solid;
+    
+    border-color:aliceblue;
+    padding-right:15px;
+    border-left: 1px solid;
+    padding-left: 15px;
+    
+    
+}
+.bjij:link{
+    color: aliceblue;
+    border-color: aliceblue;
+    opacity: 0.8;
+}
+.bjij:hover{
+   opacity: 1;
+    border-color: dimgray;
+}
+.bjij:visited{
+    color: lightgray;
+    border-color: lightgray;
+}
+
+
+
+.flag:hover, a:hover{
+    opacity: 1;
+}
+ul{
+    float: right;
+  margin-bottom: 30px;
+    position: relative;
+    z-index: 4;
+}
+
+
+.republic{
+    text-decoration: none;
+    color: aliceblue;
+}
+.flag{
+    height:10px;
+    width: auto;
+    margin-right: 5px;
+    opacity: 0.8;
+}
+
+a{
+    opacity: 0.8;
+}
+.language ul li{
+    display: inline;
+    
+}
+
+
+
+

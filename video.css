@@ -1,0 +1,150 @@
+body {
+    background: url(https://image.ibb.co/fMbLUx/icons8_the_beatles_500_white.png)   #000 no-repeat  center top  ;
+   background-size: 250px;
+     
+   }
+
+.zaebat_ela_uje{
+    height: 300px;
+    width: auto;
+}
+
+.menu{
+    float: left;
+    width:100%;
+   
+    position: relative;
+    
+    
+   
+     
+}
+
+.menu ul{
+    margin:0;
+    padding:0;
+    float: left;
+    position: relative;
+    left:50%;
+
+}
+
+.menu ul li{ 
+float:left;
+position: relative;
+right:50%;
+}
+
+.bjij{
+    text-decoration: none;
+    
+    border-width:1px;
+    border-right: 1px solid;
+    
+    border-color:aliceblue;
+    padding-right:15px;
+    border-left: 1px solid;
+    padding-left: 15px;
+    
+    
+}
+.bjij:link{
+    color: aliceblue;
+    border-color: aliceblue;
+    opacity: 0.8;
+}
+.bjij:hover{
+   opacity: 1;
+    border-color: dimgray;
+}
+.bjij:visited{
+    color: lightgray;
+    border-color: lightgray;
+}
+
+
+
+
+.linkblock {
+    margin: auto;
+    height: 130px;
+    width: 253px;
+    margin-top: -250px;
+    cursor:pointer;
+    
+}
+
+
+
+
+
+
+.tsank{
+    width: 700px;
+    height: auto;
+    border: 2px solid #fff;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    
+    
+}
+
+
+
+    
+
+
+.img {
+     width: 250px;
+    height: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    -webkit-transition-duration: 0.3s;
+    opacity: 0.8;
+}
+img:hover{
+    -webkit-transform:scale(1.2);
+    
+}
+.tb{
+    text-align: center;
+    text-decoration: none;
+}
+
+.tb:link{
+    color: aliceblue;
+    border-color: aliceblue;
+}
+
+.tb:visited{
+    color: lightgray;
+    border-color: lightgray;
+}
+.first:hover , .second:hover , .lastone:hover {
+    opacity: 1;
+}
+
+.second {
+    width: 270px;
+    margin-right:50px;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    float: right;
+}
+
+.first , .lastone{
+     width: 270px;
+    margin-left: 50px;
+    margin-right:50px;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    display: inline-block;
+}
+
+.lastone{
+    margin-bottom: 20px;
+}
+
+
